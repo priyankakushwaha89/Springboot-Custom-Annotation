@@ -1,5 +1,9 @@
 package com.example.springboot_custom_annotation;
-
+/*
+In this application we create a custom annotation (means: own annotation) as @AddressValidation,
+-> To create a custom annotation, two classes we have to create - one annotation class and one validator class
+   where we implements constraintValidator
+*/
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
